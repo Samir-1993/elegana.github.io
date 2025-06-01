@@ -316,9 +316,9 @@ img {
 	background-color: transparent;
 	cursor: pointer;
 	display: none;
-	top: 6px;
+	top: 5px;
 	position: absolute;
-	right: 15px;
+	right: 0;
 }
 .classy-navbar-toggler .navbarToggler {
 	display: inline-block;
@@ -326,7 +326,7 @@ img {
 }
 .classy-navbar-toggler .navbarToggler span {
 	position: relative;
-	background-color: #fff;
+	background-color: #121212;
 	border-radius: 3px;
 	display: block;
 	height: 3px;
@@ -546,9 +546,9 @@ img {
 	background-color: #ffffff;
 	position: fixed;
 	top: 0;
-	left: -310px;
+	left: -105%;
 	z-index: 1000;
-	width: 300px;
+	width: 100%;
 	height: 100%;
 	-webkit-transition-duration: 500ms;
 	transition-duration: 500ms;
@@ -623,7 +623,7 @@ img {
 }
 .breakpoint-on .classynav > ul > li > a {
     color: #fff;
-	background-color: #12132A;
+	background-color: #BA9978;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 .breakpoint-on .classynav ul li a::before{
