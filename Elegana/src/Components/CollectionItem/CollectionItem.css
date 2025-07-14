@@ -1,0 +1,16 @@
+.collection-box {
+    position: relative;
+}
+
+.collection-btn-box .collection-btn {
+    color: #0C0C0C;
+    background-color: #fff;
+}
+
+.collection-btn-box .collection-btn::before {
+    background-color: #d1a87f !important;
+}
+
+.collection-btn:hover {
+    color: #fff;
+}

@@ -1,0 +1,82 @@
+.collection-box1 .collection-imagebox img{
+    height: 550px;
+    object-fit: cover;
+}
+.collection-box2 .collection-imagebox img{
+    height: 860px;
+    object-fit: cover;
+}
+.collection-box3 .collection-imagebox img{
+    height: 890px;
+    object-fit: cover;
+}
+.collection-box4 .collection-imagebox img{
+    height: 520px;
+    object-fit: cover;
+}
+
+.collection-box1 .collection-btn-box,
+.collection-box2 .collection-btn-box,
+.collection-box4 .collection-btn-box {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.collection-box3 .collection-btn-box {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+ .collection-box1 .collection-imagebox img{
+    height: 450px;
+    object-fit: cover;
+}
+.collection-box2 .collection-imagebox img{
+    height: 760px;
+    object-fit: cover;
+}
+.collection-box3 .collection-imagebox img{
+    height: 790px;
+    object-fit: cover;
+}
+.collection-box4 .collection-imagebox img{
+    height: 420px;
+    object-fit: cover;
+}
+
+
+}
+
+@media (max-width: 991.98px){
+
+ .collection-box1 .collection-imagebox img{
+    height: auto;
+}
+.collection-box2 .collection-imagebox img{
+    height: auto;
+}
+.collection-box3 .collection-imagebox img{
+    height: auto;
+}
+.collection-box4 .collection-imagebox img{
+    height: auto;
+}
+
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+
+
+
+
+}
+
+
+

@@ -1,0 +1,39 @@
+.contactInfoBox{
+    padding: 20px;
+    background-color: #f5efe7;
+    text-align: center;
+    border: 1px solid #BA9978;
+}
+.contactInfo-img{
+    width: 24px;
+    height: auto;
+}
+.contactInfo-heading{
+    color: #0c0c0c;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.contactInfo-details{
+    color: #0c0c0c;
+    font-size: 12px;
+    line-height: 140%;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.contact-btn{
+    color: #BA9978;
+    width: 100%;
+    display: block;
+    border: 1px solid #BA9978;
+    background-color: transparent;
+    margin-top: 20px;
+}
+.contact-btn::before{
+    background-color: #BA9978;;
+}
+.contact-btn:hover, .contact-btn:focus{
+    color: #fff;
+}
+

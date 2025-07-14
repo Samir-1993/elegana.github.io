@@ -1,0 +1,340 @@
+/*Header start*/
+
+/* Sticky header on scroll */
+
+.header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    color: #fff !important;
+    z-index: 111 !important;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.1);
+}
+.header-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 9999;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+/*Top header start*/
+
+.top-header-section {
+    position: relative;
+    padding: 0.4rem 0;
+    background: #BA9978;
+}
+
+
+.top-header-content {
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    margin-bottom: 0;
+}
+
+/*Top header end*/
+
+/*Main header start*/
+.main-header-section {
+    width: 100%;
+    padding: 0 0;
+    background: #fff;
+    z-index: 99 !important;
+    transition: 0.3s ease-in-out;
+}
+
+.main-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 5rem;
+}
+
+.logobox img {
+    width: 100%;
+    height: auto;
+    max-width: 214px;
+}
+
+.nav-menubox ul {
+    margin-bottom: 0;
+}
+
+.nav-menubox ul {
+    padding-left: 0;
+}
+
+.nav-menubox ul li {
+    display: inline-block;
+    clear: both;
+    position: inherit;
+    z-index: 10;
+    /* border-right: 1px solid rgba(255, 255, 255, 0.4); */
+}
+
+.nav-menubox ul li a {
+    color: #404040;
+    padding: 0 2rem;
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 180%;
+    text-transform: capitalize;
+    margin: 0 0;
+    font-family: "Montserrat", sans-serif !important;
+    position: relative;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+
+.nav-menubox ul li a:hover,
+.nav-menubox ul li a.active {
+    color: #AA8055;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.cart-icons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cart-icons-wrapper .cart-iconbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 10px;
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+.cartCount {
+    content: '';
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    width: 14px;
+    height: 14px;
+    background-color: #AA8055;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
+.cart-icons-wrapper .cart-iconbox:first-child {
+    margin-top: 4px;
+}
+
+.cart-icons-wrapper .cart-iconbox .cart-icon-hover {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.cart-icons-wrapper .cart-iconbox:hover .cart-icon-hover {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.cart-icons-wrapper .cart-iconbox .cart-icon {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+
+/* .cart-icons-wrapper .cart-iconbox:hover .cart-icon {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+} */
+
+.main-header .menu {
+    position: absolute;
+    top: 1.65rem;
+    right: 1.2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 1.5rem;
+}
+
+.main-header .menu span {
+    /* height: 0.25rem;
+    width: 100%;
+    background-color: #000;
+    border-radius: 0.3rem;
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms; */
+    position: relative;
+    background-color: #252525;
+    border-radius: 3px;
+    display: block;
+    height: 3px;
+    margin-top: 5px;
+    padding: 0;
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+    width: 30px;
+    cursor: pointer;
+}
+
+.main-header .menu.active span:nth-of-type(1) {
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    top: 8px;
+}
+
+.main-header .menu.active span:nth-of-type(2) {
+    opacity: 0;
+}
+
+.main-header .menu.active span:nth-of-type(3) {
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+    top: -8px;
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .nav-menubox ul li a {
+        padding: 0 1.2rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .logobox img {
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+        margin-left: -20px;
+    }
+
+    .cart-icons-wrapper {
+        margin-right: 70px;
+    }
+
+    .main-header .menu {
+        display: flex;
+    }
+
+    .nav-menubox {
+        background-color: #ffffff;
+        position: fixed;
+        top: 0;
+        left: -105%;
+        z-index: 1000;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+        /* transition: 0.3s linear; */
+        padding-top: 50px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        display: block;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    /* .nav-menubox ul{
+    display: none;
+} */
+    .nav-menubox.open {
+        display: block;
+        top: 0;
+        left: 0;
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+        /* transition: 0.3s linear; */
+    }
+
+    .nav-menubox ul li {
+        display: block;
+        width: 100%;
+    }
+
+    .nav-menubox ul li a {
+        color: #fff;
+        background-color: #BA9978;
+        padding: 0 15px;
+        font-size: 15px;
+        height: 42px;
+        line-height: 42px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .nav-menubox ul li a.active {
+        color: #fff;
+        background-color: rgba(56, 22, 0, 0.826);
+    }
+
+    .nav-menubox.open .classycloseIcon {
+        display: block;
+    }
+
+    .classycloseIcon {
+        position: absolute;
+        top: 12px;
+        right: 20px;
+        z-index: 12;
+        display: none;
+    }
+
+    .classycloseIcon .cross-wrap {
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .classycloseIcon .cross-wrap span {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 2px;
+        border-radius: 6px;
+        background: #252525;
+    }
+
+    .classycloseIcon .cross-wrap span.top {
+        top: 12px;
+        left: 0;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .classycloseIcon .cross-wrap span.bottom {
+        bottom: 12px;
+        left: 0;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+
+
+}

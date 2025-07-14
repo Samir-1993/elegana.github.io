@@ -1,0 +1,20 @@
+.shopby-category-section{
+    padding: 90px 0 0;
+}
+.shopby-category-section .product-contentbox{
+    display: none;
+}
+
+.shopby-category-section .product-heading{
+    text-align: center;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+
+.shopby-category-section {
+    padding: 60px 0 0;
+}
+
+
+}

@@ -1,0 +1,136 @@
+.followus-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    position: relative;
+}
+
+.sec5-imagebox1,
+.sec5-imagebox2,
+.sec5-imagebox3,
+.sec5-imagebox4,
+.sec5-imagebox5 {
+    position: relative;
+}
+
+.sec5-imagebox1 img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.sec5-imagebox2 img,
+.sec5-imagebox3 img,
+.sec5-imagebox4 img,
+.sec5-imagebox5 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.hover-iconbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.hover-iconbox img {
+    max-width: 30px;
+    height: auto;
+}
+
+.sec5-imagebox1:hover .hover-iconbox,
+.sec5-imagebox2:hover .hover-iconbox,
+.sec5-imagebox3:hover .hover-iconbox,
+.sec5-imagebox4:hover .hover-iconbox,
+.sec5-imagebox5:hover .hover-iconbox {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s ease-in-out;
+}
+
+.sec5-imagebox1::before,
+.sec5-imagebox2::before,
+.sec5-imagebox3::before,
+.sec5-imagebox4::before,
+.sec5-imagebox5::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s linear;
+}
+
+.sec5-imagebox1:hover::before,
+.sec5-imagebox1:focus::before,
+.sec5-imagebox2:hover::before,
+.sec5-imagebox2:focus::before,
+.sec5-imagebox3:hover::before,
+.sec5-imagebox3:focus::before,
+.sec5-imagebox4:hover::before,
+.sec5-imagebox4:focus::before,
+.sec5-imagebox5:hover::before,
+.sec5-imagebox5:focus::before {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s linear;
+}
+
+
+/*Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {
+
+.sec5-imagebox1 img {
+    width: 100%;
+    height: auto;
+}
+.sec5-imagebox2 img, .sec5-imagebox3 img, .sec5-imagebox4 img, .sec5-imagebox5 img {
+    width: 100%;
+    height: auto;
+}
+
+
+}
+
+@media (max-width: 575.98px){
+
+.followus-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+}
+
+

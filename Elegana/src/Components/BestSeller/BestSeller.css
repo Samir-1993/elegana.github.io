@@ -1,0 +1,59 @@
+.bestseller-section {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.view-more-button {
+    text-align: right;
+}
+.view-all-btn {
+    color: #BA9978;
+    font-size: 0.875rem;
+    line-height: 140%;
+    font-weight: normal;
+    transition: 0.3s ease-in-out;
+}
+.view-all-btn:hover{
+    color: #0C0C0C;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+
+.bestseller-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

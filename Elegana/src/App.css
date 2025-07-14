@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    color: #0C0C0C;
+    font-size: 1rem;
+    line-height: 140%;
+    font-weight: 400;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif !important;
+    /* font-family: "Aldrich", sans-serif;
+    font-family: "Great Vibes", cursive;
+    font-family: "JetBrains Mono", monospace;
+    font-family: "Inter", sans-serif;
+    font-family: "Roboto", sans-serif; */
+}
+
+
+p {
+    color: #0C0C0C;
+    font-size: 1rem;
+    line-height: 140%;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+input:hover,
+input:focus {
+    outline: none !important;
+}
+
+textarea:hover,
+textarea:focus {
+    outline: none !important;
+}
+
+button:hover,
+button:focus {
+    outline: none !important;
+}
+
+select:hover,
+select:focus {
+    outline: none !important;
+}
+
+a:hover,
+a:focus {
+    outline: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+@font-face {
+    font-family: "Built Titling Regular";
+    src: url(./Components/Assets/fonts/built-titling-regular.otf);
+}
+
+
+.mt-10 {
+    margin-top: 10px !important;
+}
+
+.mt-20 {
+    margin-top: 20px !important;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+.mt-40 {
+    margin-top: 40px !important;
+}
+
+.mt-50 {
+    margin-top: 50px !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px !important;
+}
+
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+
+.mb-40 {
+    margin-bottom: 40px !important;
+}
+
+.mb-50 {
+    margin-bottom: 50px !important;
+}
+
+.common-section{
+    padding: 80px 0;
+}
+
+.heading1 {
+    color: #0C0C0C;
+    font-size: 32px;
+    line-height: 140%;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.heading2 {
+    color: #0C0C0C;
+    font-size: 24px;
+    line-height: 140%;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.heading3 {
+    color: #0C0C0C;
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.details{
+    color: #0C0C0C;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+.heading1 {
+    font-size: 26px;
+}
+
+}
+/*Medium devices (tablets, 991.98px and down*/
+@media (max-width: 991.98px){
+
+.common-section{
+    padding: 50px 0;
+}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .md-mt-10 {
+        margin-top: 10px !important;
+    }
+    .md-mt-20 {
+        margin-top: 20px !important;
+    }
+    .md-mt-30 {
+        margin-top: 30px !important;
+    }
+    .md-mt-40 {
+        margin-top: 40px !important;
+    }
+    .md-mt-50 {
+        margin-top: 50px !important;
+    }
+
+.heading1 {
+    font-size: 24px;
+}
+
+
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .sm-mt-10 {
+        margin-top: 10px !important;
+    }
+    .sm-mt-20 {
+        margin-top: 20px !important;
+    }
+    .sm-mt-30 {
+        margin-top: 30px !important;
+    }
+    .sm-mt-40 {
+        margin-top: 40px !important;
+    }
+    .sm-mt-50 {
+        margin-top: 50px !important;
+    }
+
+.heading1 {
+    font-size: 22px;
+}
+
+
+}
+
+
+/*Small devices (phones, 575px and down)*/
+@media (max-width: 575.98px) {
+
+    .mb-mt-10 {
+        margin-top: 10px !important;
+    }
+    .mb-mt-20 {
+        margin-top: 20px !important;
+    }
+    .mb-mt-30 {
+        margin-top: 30px !important;
+    }
+    .mb-mt-40 {
+        margin-top: 40px !important;
+    }
+    .mb-mt-50 {
+        margin-top: 50px !important;
+    }
+
+.heading1 {
+    font-size: 20px;
+}
+
+
+
+}
+
+
+
